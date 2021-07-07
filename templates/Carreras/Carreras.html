@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>BolsaITESZ</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='CSS/EstiloUsuario.css')}}">
+        <script src="carreras.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="textoEncabezado">
+                CARRERAS
+            </h1>
+        </header>
+        <main>
+            <section>
+                <h1>CONSULTA</h1>
+                <div id="Consulta">
+                    <fieldset>
+                        <label>IdCarrera:</label>
+                        <input type="text" name="IdCarrera" placeholder="IdCarrera">
+                        <button onclick="ConsultaCarrera()">Consultar</button>
+                    </fieldset>
+                </div>
+                <form>
+                    <div id="datosPersonales">
+                        <fieldset>
+                            <legend>Datos de la carrera</legend>
+                            <label>Nombre:</label>
+                            <input type="text" name="nombre" placeholder="Nombre" maxlength="100" required> 
+                            <br>
+                            <label>IdCarrera:</label>
+                            <input type="text" name="IdCarrera" placeholder="IdCarrera" required>
+                            <br>
+                            <label>Siglas:</label>
+                            <input type="text" name="Siglas" placeholder="Siglas" maxlength="5" required>
+                            <br>
+                            <label>Creditos:</label>
+                            <input type="number" name="Creditos" placeholder="000" maxlength="300" required>
+                            <br>
+                            <label>Plan de estudios:</label>
+                            <input type="text" name="Plan" placeholder="Plan de estudios" required>
+                            <br>
+                            <label>Especialidad:</label>
+                            <input type="text" name="Especialidad" required>
+                            <br>
+                            <label>noEmpleado:</label>
+                            <input type="text" name="noEmpleado" required>
+                            <br>
+                            <button onclick="Agregar()">Crear</button>
+                            <button onclick="eliminar()">Eliminar</button>
+                        </fieldset>
+                    </div>
+                </form>
+                <!--<a href="#" class="linkButton">Otro link</a>-->
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{
+
+    "nocontrol": 16010329,
+    "idCarrera":3,
+    "fechanacimiento":"10-05-1997",
+    "promedio":85.60,
+    "anioegreso":2019,
+    "curriculo":".............."

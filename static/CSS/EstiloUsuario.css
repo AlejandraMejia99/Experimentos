@@ -1,0 +1,40 @@
+fieldset{
+    margin-left: 20%;
+    margin-right: 30%;
+    width: 50%;
+    background-color:rgba(104, 5, 197, 0.993);
+    border-width: 10px;
+    border-color: rgb(49, 199, 4);
+}
+
+fieldset:hover{
+    background-color: rgb(52, 2, 233);
+}
+
+legend{
+    color:rgb(18, 16, 19);
+    background-color: teal;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+button{
+    border-radius: 50px 50px;
+    background-color: rgb(14, 184, 252);
+    color:black;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: rgb(206, 115, 10);
+}

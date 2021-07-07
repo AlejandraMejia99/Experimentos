@@ -1,0 +1,9 @@
+{
+    "id":10034,
+    "nombre":"Federico",
+    "telefono":"351-879-8965",
+    "email":"Fdrc@js.com",
+    "sexo":"M",
+    "nombre":"Fresch",
+    "nombre":"Gerente"
+}

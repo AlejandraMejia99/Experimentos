@@ -1,0 +1,14 @@
+{
+    "Id":12,
+    "IdContrato":12345,
+    "IdEmpresa":005,
+    "IdReclutor":25,
+    "nombre":" Desarrollador Web",
+    "descripcion":"Desarrollador de pagina Web"
+    "fechapublicacions":"13/11/2020"
+    "salario":"2000"
+    "numVacantes":"25"
+    "status":"A"
+
+
+}

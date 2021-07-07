@@ -1,0 +1,14 @@
+{
+    "id":12345,
+    "nombre":" DBA",
+    "descripcion":"Desarrollador de BD"
+    "fechapublicacions":"24/11/2020"
+    "salario":"3000"
+    "numVacantes":"25"
+    "status":"A"
+    "categoria":"4"
+    "contratacion":"6"
+    "nombreEmp":"Max"
+    "nombreRe":"Juan
+
+}

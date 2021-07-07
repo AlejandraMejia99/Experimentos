@@ -1,0 +1,8 @@
+{
+    "nombre":"Victor",
+    "IdUsuario":"123456",
+    "sexo":"M",
+    "telefono":351-149-1460,
+    "email":"abcd@efgh.com",
+    "password":"123"
+}
