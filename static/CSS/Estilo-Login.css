@@ -1,8 +1,5 @@
-body{
-    font-family:'Times New Roman', Times, serif;
-    /* Tipo de Tipografia*/
-    font-size: 13px;
-    /*Tamanio en especifico a la letra*/
+body {
+    font-family: "Lato", sans-serif;
 }
 
 
@@ -15,7 +12,7 @@ body{
 
 .sidenav {
     height: 100%;
-    background-color:black;
+    background-color: #000;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -26,7 +23,7 @@ body{
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 25px;}
+    .sidenav {padding-top: 15px;}
 }
 
 @media screen and (max-width: 450px) {
@@ -45,7 +42,7 @@ body{
     }
 
     .sidenav{
-        width: 50%;
+        width: 40%;
         position: fixed;
         z-index: 1;
         top: 0;
