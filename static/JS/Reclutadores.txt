@@ -1,6 +1,0 @@
-{
-    "id":10,
-    "idEmpresa":15,
-    "cargo":"Encargado de Entrevistas"
-
-}

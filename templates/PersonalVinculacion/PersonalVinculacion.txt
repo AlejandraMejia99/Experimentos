@@ -1,8 +1,0 @@
-{
-    "nempleado":14250,
-    "nombre":"Rafael",
-    "telefono":"351-124-7895",
-    "email":"rafael@ma.as",
-    "sexo":"M",
-    "cargo":"Encargado de area"
-}
