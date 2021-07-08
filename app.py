@@ -110,7 +110,7 @@ def contratos():
 def categorias():
     return render_template('Categoria/Categoria.html')
 
-@app.route('/Carreras')
+@app.route('/registrarCarrera')
 def carreras():
     return render_template('Carreras/Carreras.html')
 
