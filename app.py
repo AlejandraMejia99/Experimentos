@@ -157,9 +157,23 @@ def eliminar_PersonalVinculacion():
     return render_template('PersonalVinculacion/eliminarPersonalVinculacion.html')
 ##############################################################################
 
-@app.route('/Entrevista')
-def entrevista():
-    return render_template('Entrevista/Entrevista.html')
+#######################--------Tablas de meny-----------#############################
+#####-----CRUD Contrato-----#####
+@app.route('/registrarContrato')
+def registrarContrato():
+    return render_template('Contratos/registrarContrato.html')
+
+@app.route('/opcionesContratos')
+def opcionesContratos():
+    return render_template('Contratos/opcionesContratos.html')
+#####-----CRUD Categoria-----#####
+@app.route('/registrarCategoria')
+def registrarCategoria():
+    return render_template('Categoria/registrarCategoria.html')
+
+@app.route('/opcionesContratos')
+def opcionesContratos():
+    return render_template('Categoria/opcionesContratos.html')
 
 #@app.route('/registrarProducto')
 #def registrarProducto():
